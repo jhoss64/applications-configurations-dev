@@ -1,0 +1,10 @@
+server:
+  port: 7001
+spring:
+  data:
+    mongodb:
+      uri: mongodb+srv://jhoss:systeM64@sandbox.wynj5.mongodb.net/systiendas
+eureka: 
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:8761/eureka
